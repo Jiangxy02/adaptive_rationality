@@ -1,0 +1,7 @@
+# Keep the public repo clean for the upcoming code release
+README_reference.md
+main.tex
+
+# Reference / source figure files
+fig/*.pdf
+*.pdf
