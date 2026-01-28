@@ -2,6 +2,9 @@
 README_reference.md
 main.tex
 
+# macOS
+.DS_Store
+
 # Reference / source figure files
 fig/*.pdf
 *.pdf
