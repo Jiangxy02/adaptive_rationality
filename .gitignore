@@ -1,0 +1,42 @@
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+
+# Data and generated artifacts
+*.csv
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.mat
+*.parquet
+*.h5
+*.sample
+*.zip
+*.ckpt
+*.pt
+*.pth
+checkpoints/
+runs/
+logs/
+tb/
+tensorboard/
+*.gif
+*.mp4
+*.png
+!fig/
+!fig/Fig. 1. Research framework.png
+
+# Bundled real trajectory scenario (authorized for release)
+!examples/trajectory_scenario/
+!examples/trajectory_scenario/*.csv
+/AGENT_LOG.md
+/SPLIT_PLAN.md
+/tests/
+/outputs/
+
+# Python packaging / editable-install artifacts
+*.egg-info/
+build/
+dist/

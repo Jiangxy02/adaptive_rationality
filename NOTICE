@@ -1,0 +1,8 @@
+This repository depends on the public Jiangxy02/metadrive fork at commit
+fad0a7e18db3ed899a32e5e42aaa88cbe4c4df52, based on upstream commit
+85e5dadc6c7436d324348f6e3d8f8e680c06b4db. The MetaDrive simulator and its
+runtime assets remain licensed under Apache-2.0, and copyright belongs to the
+MetaDrive authors (metadriverse). See the fork's LICENSE.txt for the full
+license text. MetaDrive code and assets are not redistributed in this repository.
+
+Original code in this repository is licensed under the MIT License.

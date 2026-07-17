@@ -1,0 +1,12 @@
+# Direct dependency manifest used by project metadata and editable installs.
+torch==2.4.0
+stable-baselines3==2.3.2
+gymnasium==0.29.1
+numpy==1.24.4
+pandas==2.0.3
+# Minimal MetaDrive fork based on upstream 85e5dad, pinned to an immutable commit.
+metadrive-simulator @ git+https://github.com/Jiangxy02/metadrive.git@fad0a7e18db3ed899a32e5e42aaa88cbe4c4df52
+seaborn==0.13.2
+tensorboard==2.14.0
+matplotlib==3.7.3
+tqdm==4.67.1

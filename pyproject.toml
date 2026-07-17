@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cognitive-ppo-driving"
+version = "0.1.0"
+description = "Cognitive-Modulated PPO Driving (CHI paper code)"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }
+
+# Editable install exposes these as top-level importable packages. The exact
+# MetaDrive fork commit is declared in requirements.txt.
+[tool.setuptools.packages.find]
+where = ["."]
+include = [
+    "cognitive_module*",
+    "common*",
+    "evaluation*",
+    "extras*",
+    "parameter_identify*",
+    "ppo_train*",
+]
+exclude = ["runs*", "scripts*", "examples*", "docs*"]
